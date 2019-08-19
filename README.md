@@ -4,8 +4,9 @@ Finds and Scores rooms on Spareroom
 (There is also a SearchEngine class that can be extended to adapt to other search engines)
 
 ### How to Install
-* git clone https://github.com/eonlight/roomfinder.git
-
+```
+git clone https://github.com/eonlight/roomfinder.git
+```
 
 #### Running Examples
 
