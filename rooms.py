@@ -160,7 +160,7 @@ class SearchEngine(object):
 
         html += '<tbody></table><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script></body></html>'
 
-        with open(self.file_name.replace('.json', '.html'), 'w') as f:
+        with open(self.file_name.replace('.json', '.html'), 'wb') as f:
             f.write(html.encode('utf-8'))
 
     def get_score(self, scores=None, key=None):
